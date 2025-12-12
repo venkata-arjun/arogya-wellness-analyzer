@@ -11,7 +11,7 @@ function HomePage({ onLoginClick, onRegisterClick }) {
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img
-              src="/src/assets/head-logo.png"
+              src="/head-logo.png"
               alt="Arogya Logo"
               className="w-8 h-8 sm:w-10 sm:h-10 object-contain"
             />
@@ -44,7 +44,7 @@ function HomePage({ onLoginClick, onRegisterClick }) {
             <div>
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 mb-6 sm:mb-8">
                 <img
-                  src="/src/assets/head-logo.png"
+                  src="/head-logo.png"
                   alt="Arogya Logo"
                   className="w-20 h-20 sm:w-32 sm:h-32 md:w-40 md:h-40 object-contain flex-shrink-0"
                 />
@@ -90,7 +90,7 @@ function HomePage({ onLoginClick, onRegisterClick }) {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-emerald-200 to-blue-200 rounded-3xl opacity-30 blur-2xl"></div>
               <img
-                src="/src/assets/home-image.jpg"
+                src="/home-image.jpg"
                 alt="Wellness & Health"
                 className="relative rounded-3xl shadow-2xl w-full h-auto object-contain mx-auto"
               />

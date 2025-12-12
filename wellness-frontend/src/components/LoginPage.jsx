@@ -90,7 +90,7 @@ function LoginPage({ onLogin, onBackClick }) {
           {/* Logo and Title */}
           <div className="flex flex-col items-center mb-6">
             <img
-              src="/src/assets/head-logo.png"
+              src="/head-logo.png"
               alt="Arogya"
               className="h-20 w-20 object-contain mb-4"
             />

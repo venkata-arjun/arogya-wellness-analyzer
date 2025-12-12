@@ -26,12 +26,12 @@ function YouTubeRecommendations({ symptom }) {
     >
       <div className="relative">
         <img
-          src={v.thumbnail || "/src/assets/arogya-logo.jpeg"}
+          src={v.thumbnail || "/arogya-logo.jpeg"}
           alt={v.title || "Wellness video"}
           className="w-full h-40 object-cover"
           onError={(e) => {
-            if (e.currentTarget.src !== "/src/assets/arogya-logo.jpeg") {
-              e.currentTarget.src = "/src/assets/arogya-logo.jpeg";
+            if (e.currentTarget.src !== "/arogya-logo.jpeg") {
+              e.currentTarget.src = "/arogya-logo.jpeg";
             }
           }}
         />
@@ -112,12 +112,12 @@ function YouTubeRecommendations({ symptom }) {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-0 mb-6 p-4 rounded-xl bg-gradient-to-r from-emerald-50 to-white border border-emerald-100">
         <div className="flex items-start sm:items-center gap-3 sm:gap-4">
           <img
-            src="/src/assets/arogya-logo.jpeg"
+            src="/arogya-logo.jpeg"
             alt="Arogya"
             className="h-12 w-12 sm:h-14 sm:w-14 rounded-xl object-cover border-2 border-emerald-200 shadow-sm"
             onError={(e) => {
-              if (e.currentTarget.src !== "/src/assets/arogya-logo.jpeg")
-                e.currentTarget.src = "/src/assets/arogya-logo.jpeg";
+              if (e.currentTarget.src !== "/arogya-logo.jpeg")
+                e.currentTarget.src = "/arogya-logo.jpeg";
             }}
           />
           <div className="leading-tight">

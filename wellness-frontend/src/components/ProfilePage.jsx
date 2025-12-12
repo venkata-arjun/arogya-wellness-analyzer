@@ -86,7 +86,7 @@ function ProfilePage({ userId, onProfileSaved }) {
           {/* Logo and Header */}
           <div className="flex flex-col items-center mb-6">
             <img
-              src="/src/assets/head-logo.png"
+              src="/head-logo.png"
               alt="Arogya"
               className="h-16 w-16 object-contain mb-3"
             />

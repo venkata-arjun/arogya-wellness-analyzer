@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "../assets/head-logo.png";
 
 /*
   NavBar.jsx
@@ -38,7 +37,7 @@ function NavBar({ onHome, onHistory, onProfile, onLogout }) {
         {/* Logo */}
         <div className="flex items-center gap-3 flex-shrink-0">
           <img
-            src={logo}
+            src="/head-logo.png"
             alt="Arogya"
             className="w-8 h-8 sm:w-9 sm:h-9 rounded-lg object-cover"
           />
