@@ -1,4 +1,4 @@
-# Wellness Project
+# AROGYA WELLNESS ASSISTANT 
 
 A comprehensive health and wellness application with AI-powered health assistance, personalized recommendations, and user profile management.
 
